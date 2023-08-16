@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts</title>
+    <link rel="icon" href="yash-removebg-preview.png">
+    <link rel="stylesheet" href="video.css">
+    <style>
+        h1{
+            padding-top:170px;
+        }
+        form{
+            margin-top:20px;
+        }
+        label{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <video autoplay muted loop id="myVideo">
+            <source src="mixkit-3d-rendering-of-planet-earth-rotating-in-space-34314-medium.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <center>
+            <h1><font color="blue">Contact_Details</font></h1><br>
+            <form action="submit.html">
+                <label for="name">Name : </label>
+                <input type="text" placeholder="Enter Name" required id="name" name="name"><br><br><br>
+                <label for="phone">Phone : </label>
+                <input type="number" placeholder="Enter phone number" required id="phone" name="phone"><br><br><br>
+                <label for="mail">Gmail : </label>
+                <input type="email" placeholder="Enter your email" required id="mail" name="mail"><br><br>
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </center>
+    </div>
+</body>
+</html>
